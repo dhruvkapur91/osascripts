@@ -1,0 +1,4 @@
+tell application "Visual Studio Code"
+	activate
+	tell application "System Events" to key code 111
+end tell

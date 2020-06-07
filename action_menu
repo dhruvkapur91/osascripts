@@ -1,0 +1,4 @@
+tell application "Visual Studio Code"
+	activate
+	tell application "System Events" to keystroke "p" using {command down, shift down}
+end tell
